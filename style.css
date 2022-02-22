@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body{
@@ -47,3 +49,35 @@ header .menu ul li a{
     height: 100vh;
     background: linear-gradient(28.15deg, #252424 36.62%,  #9B0E18 50.61%);
 }
+#home .container .content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 200px;
+}
+#home  .container .content h1{
+    color: #FFF;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+#home .container .content p{
+    width: 800px;
+    color: #FFF;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    margin-top: 60px;
+}
+#home .container .content button{
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #252424;
+    border: none;
+    cursor: pointer;
+
+}
+
+
